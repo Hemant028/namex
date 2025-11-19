@@ -1,4 +1,4 @@
-# GoFlare - Bot & Anti-DDoS Protection Platform
+# Namex - Bot & Anti-DDoS Protection Platform
 
 A high-performance, Cloudflare-like platform with Bot Protection, Rate Limiting, and DDoS Mitigation at both **HTTP (Layer 7)** and **DNS** layers.
 
